@@ -1,0 +1,13 @@
+#!/bin/bash
+
+python fingerprinting.py google.com 80 20 1000 > google &
+python fingerprinting.py microsoft.com 80 20 1000 > microsoft &
+python fingerprinting.py facebook.com 80 20 1000 > facebook &
+python fingerprinting.py instagram.com 80 20 1000 > instagram &
+python fingerprinting.py hotmail.com 80 20 1000 > hotmail &
+python fingerprinting.py gmail.com 80 20 1000 > gmail &
+python fingerprinting.py g1.globo.com 80 20 1000 > g1 &
+python fingerprinting.py globoesporte.globo.com 80 20 1000 > globoesporte &
+python fingerprinting.py r7.com 80 20 1000 > r7
+
+exit
